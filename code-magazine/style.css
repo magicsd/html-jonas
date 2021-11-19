@@ -64,3 +64,19 @@ aside {
   border-bottom: 5px solid #1098ad;
 }
 
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #1098ad;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  background-color: #444444;
+}
