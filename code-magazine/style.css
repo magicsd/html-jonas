@@ -67,7 +67,7 @@ aside {
   background-color: #f7f7f7;
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
-  flex: 0 0 300px;
+  /*flex: 0 0 300px;*/
 }
 
 a:link {
@@ -99,11 +99,32 @@ a:active {
 }
 
 .row {
-  display: flex;
-  align-items: flex-start;
-  gap: 25px
+  /*display: flex;*/
+  /*align-items: flex-start;*/
+  /*gap: 25px*/
+}
+
+/* GRID */
+.container {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  gap: 60px 75px;
+  align-items: start;
+}
+
+.main-header {
+  grid-column: 1 / -1;
 }
 
 article {
-  flex: 1;
+
 }
+
+aside {
+
+}
+
+footer {
+  grid-column: 1 / -1;
+}
+
