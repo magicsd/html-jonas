@@ -49,5 +49,34 @@ body {
   font-family: sans-serif;
   line-height: 1;
   font-weight: 400;
-  color: #555
+  color: #555;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 130rem;
+  margin: 0 auto;
+}
+
+.hero-img {
+  width: 100%;
+}
+
+.section-hero {
+}
+
+.hero-text-box {
+}
+
+.heading-primary {
+}
+
+.hero-description {
+}
+
+.btn {
+}
+
+.hero-image-box {
 }
