@@ -117,6 +117,39 @@
 }
 
 /* HOW IT WORKS SECTION */
+.section-featured {
+  padding: 4.8rem 0 3.2rem;
+}
+
+.heading-featured-in {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.75px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 2.4rem;
+  color: #888;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-around;
+}
+
+.logos img {
+  height: 3.2rem;
+  filter: brightness(0);
+  opacity: 0.5;
+  transition: all .25s ease;
+}
+
+.logos img:hover {
+  filter: brightness(1);
+  opacity: 1;
+}
+
+
+/* HOW IT WORKS SECTION */
 
 .section-how {
   padding: 9.6rem 0;
