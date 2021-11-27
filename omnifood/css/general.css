@@ -36,6 +36,7 @@ Greys:
 
 --- BORDER-RADIUS
 Default: 9px
+11px
 
 --- WHITESPACE
 
@@ -63,6 +64,10 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #555;
+}
+
+strong {
+  font-weight: 500;
 }
 
 /* GENERAL COMPONENTS */
