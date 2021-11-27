@@ -142,8 +142,20 @@ strong {
   box-shadow: inset 0 0 0 3px #fff;
 }
 
-.mr-sm {
-  margin-right: 1.6rem !important;
+.link:link,
+.link:visited {
+  display: inline-block;
+  color: #e67e22;
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 2px;
+  transition: all 0.25s ease;
+}
+
+.link:hover,
+.link:active {
+  color: #cf711f;
+  border-bottom: 1px solid transparent;
 }
 
 .grid {
@@ -171,4 +183,18 @@ strong {
   max-width: 120rem;
   margin: 0 auto;
   padding: 0 3.2rem;
+}
+
+/* HELPERS */
+
+.text-center {
+  text-align: center;
+}
+
+.mr-sm {
+  margin-right: 1.6rem !important;
+}
+
+.mb-md {
+  margin-bottom: 4.8rem !important;
 }
