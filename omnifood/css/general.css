@@ -27,6 +27,7 @@ Tints:
 #fae5d3
 
 Shades:
+#cf711f
 Accents:
 Greys:
 #6f6f6f
@@ -184,6 +185,26 @@ strong {
   max-width: 120rem;
   margin: 0 auto;
   padding: 0 3.2rem;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.list-item {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.list-icon {
+  height: 3rem;
+  width: 3rem;
+  color: #e67e22;
 }
 
 /* HELPERS */
