@@ -29,6 +29,7 @@ Tints:
 Shades:
 Accents:
 Greys:
+#6f6f6f
 #555
 #333
 
@@ -86,7 +87,7 @@ strong {
 }
 
 .heading-secondary {
-  font-size: 4.4rem;
+  font-size: 4.2rem;
   line-height: 1.2;
   margin-bottom: 9.6rem;
 }
