@@ -13,10 +13,6 @@
 }
 
 /* NAVIGATION */
-
-.main-nav {
-}
-
 .main-nav-list {
   display: flex;
   align-items: center;
@@ -50,6 +46,25 @@
 .main-nav-link.nav-cta:hover,
 .main-nav-link.nav-cta:active {
   background-color: #cf711f;
+}
+
+/* Mobile */
+
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: none;
+}
+
+.icon-mobile-nav {
+  height: 4.8rem;
+  width: 4.8rem;
+  color: #333;
+}
+
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
 }
 
 /* HERO SECTION */
